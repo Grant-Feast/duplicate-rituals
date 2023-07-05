@@ -1,0 +1,199 @@
+// Header styles
+.header-logo {
+  background-color: #000000;
+  background: #000000;
+  .logo-inner img {
+    width: 172px;
+  }
+}
+.sub-header {
+  background-color: #242222;
+  background: #242222;
+    .menu-item {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      vertical-align: middle;
+      a {
+        p {
+          color: #ffffff;
+          font-weight: 400;
+          text-align: center;
+          margin-bottom: 0;
+          letter-spacing: 1.5px;
+          text-transform: uppercase;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+        .user-icon {
+          width: 19px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+}
+
+// Main body styles
+.main-heading {
+  background-color: #f6f4f2;
+  background: #f6f4f2;
+  .main-heading-inner {
+    padding: 30px !important;
+    a {
+      width: fit-content;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2 {
+      color: #1A1919;
+      font-size: 24px;
+      font-family: 'Times New Roman', Times, serif;
+      margin-bottom: 0;
+      letter-spacing: 1px;
+    }
+  }
+}
+// Gift section styles
+.gift {
+  background-color: #f6f4f2;
+  background: #f6f4f2;
+  .gift-inner {
+    padding: 40px 60px 40px !important;
+    h3 {
+      text-align: center;
+      font-size: 14px;
+      color: #b8a188;
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+    }
+    .gift-info {
+      text-align: center;
+      font-size: 14px;
+      color: #1a1919;
+      letter-spacing: 0.75px;
+      line-height: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 20px;
+      margin: 0;
+    }
+    .shop-now-btn {
+      p {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #1a1919;
+        padding: 15px 29px !important;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        Margin-bottom: 20px !important;
+        letter-spacing: 2px;
+      }
+    }
+    .collection-btn {
+      p {
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 15px 29px !important;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #1A1919;
+        color: #1A1919;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+// Hydra-boost section styles
+.hydra-boost {
+  background-color: #efedea;
+  background: #efedea;
+  .hydra-boost-inner {
+    padding: 20px 60px 0 !important;
+    .hydra-boost-img {
+      padding-top: 10px;
+    }
+  }
+}
+.hb-info {
+  background-color: #efedea;
+  background: #efedea;
+  .hb-info-inner {
+    padding: 20px 60px 60px !important;
+    .hydra-boost {
+      text-align: center;
+      font-size: 14px;
+      color: #1A1919;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 20px;
+      letter-spacing: 0.75px;
+      line-height: 25px;
+      .bold {
+        font-weight: 800;
+      }
+    }
+    .try-btn {
+      p {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #1a1919;
+        padding: 15px 29px !important;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+// New arrivals section styles
+.new-arrivals {
+  background-color: #f6f4f2;
+  background: #f6f4f2;
+  .new-arrivals-info {
+    vertical-align: middle;
+    .info-inner {
+      .new-arrivals-link {
+        h3, h2 {
+          width: fit-content;
+          margin-left: auto;
+          margin-right: auto;
+          letter-spacing: 2px;
+          color: #1A1919;
+          font-family: 'Times New Roman', Times, serif;
+          padding-bottom: 10px;
+        }
+        h3 {
+          padding-top: 20px;
+          font-size: 14px;
+          text-transform: uppercase;
+        }
+        h2 {
+          font-size: 24px;
+        }
+      }
+    }
+    .info {
+      padding: 0 20px 20px !important;
+      text-align: center;
+    }
+    .whats-new-btn {
+      p {
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 15px 29px !important;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #1A1919;
+        color: #1A1919;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
