@@ -157,7 +157,6 @@
   background: #f6f4f2;
   .new-arrivals-info {
     vertical-align: middle;
-    .info-inner {
       .new-arrivals-link {
         h3, h2 {
           width: fit-content;
@@ -176,7 +175,6 @@
         h2 {
           font-size: 24px;
         }
-      }
     }
     .info {
       padding: 0 20px 20px !important;
@@ -194,6 +192,190 @@
         color: #1A1919;
         letter-spacing: 2px;
       }
+    }
+  }
+}
+// Positivity section styles
+.positivity {
+  background-color: #efedea;
+  background: #efedea;
+  .positivity-inner {
+    .positivity-logo {
+      width: 40px;
+      padding-top: 30px;
+    }
+    .positivity-link h2, .optimist-link h3 {
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .positivity-link h2 {
+      font-size: 24px;
+      color: #1A1919;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      letter-spacing: 1px;
+    }
+    .optimist-link h3 {
+      font-size: 14px;
+      color: #b8a188;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      padding-bottom: 30px;
+    }
+  }
+}
+.positivity-img {
+  background-color: #efedea;
+  background: #efedea;
+  .positivity-img-inner {
+    padding-bottom: 60px;
+    .positivity-info {
+      margin: 0;
+      text-align: center;
+      padding: 30px !important;
+      letter-spacing: 0.75px;
+      color: #1A1919;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 25px;
+    }
+    .teach-btn {
+      p {
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 15px 29px !important;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #1A1919;
+        color: #1A1919;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+// Service section styles 
+.service {
+  background-color: #262424;
+  background: #262424;
+  .service-inner {
+    padding: 40px 20px !important;
+    h3 {
+      text-align: center;
+      color: #ffffff;
+      font-size: 24px;
+      font-family: 'Times New Roman', Times, serif;
+      padding-bottom: 30px;
+      margin-bottom: 0;
+      letter-spacing: 1px;
+    }
+    .services-row {
+      .service-container {
+        img {
+          width: 24px;
+          margin-left: auto;
+          margin-right: auto;
+          padding-bottom: 10px;
+        }
+        p {
+          font-size: 14px;
+          color: #ffffff;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;
+          letter-spacing: 0.75px;
+          line-height: 25px !important;
+        }
+      }
+    }
+  }
+}
+// Local store styles
+.visit {
+  background-color: #201f1f;
+  background: #201f1f;
+  .visit-inner {
+    padding: 28px 20px !important;
+    img {
+      width: 20px;
+      display: inline-block;
+      padding-right: 10px;
+    }
+    p {
+      color: #ffffff;
+      text-align: center;
+      margin-bottom: 0;
+      letter-spacing: 0.75px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  }
+}
+// Connected section styles
+.connected {
+  background-color: #1a1919;
+  background: #1a1919;
+  .connected-inner {
+    padding: 30px 70px !important;
+    .connected-header {
+      font-size: 18px;
+      color: #ffffff;
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 2px;
+      padding-bottom: 30px;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .social .social-column {
+      padding-bottom: 30px;
+      img {
+        width: 46px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+.app {
+  background-color: #1a1919;
+  background: #1a1919;
+  .app-column img {
+    width: 136px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+  }
+}
+.certified {
+  background-color: #1a1919;
+  background: #1a1919;
+  .certified-inner {
+    img {
+      width: 80px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px 0 40px;
+    }
+  }
+}
+// Footer styles
+.footer {
+  background-color: #1a1919;
+  background: #1a1919;
+  .footer-inner {
+    padding: 0 30px 70px !important;
+    p {
+      color: #ffffff;
+      text-align: center;
+      letter-spacing: 0.75px;
+      font-size: 12px;
+      line-height: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .copyright, .terms, .contact {
+      padding-bottom: 20px;
+    }
+    .footer-links {
+      letter-spacing: 0;
     }
   }
 }

@@ -33,12 +33,14 @@ subject: My Email Templates
   <!-- Hydra-boost section -->
   <row class="collapse hydra-boost">
     <columns class="hydra-boost-inner">
-      <columns class="hydra-boost-img">
-        <img src="{{ root }}/assets/img/rituals_files/hb1.jpeg" alt="Hydra Boost">
-      </columns>
-      <columns class="hydra-boost-img">
-        <img src="{{ root }}/assets/img/rituals_files/hb2.jpeg" alt="Hydra Boost">
-      </columns>
+      <row>
+        <columns class="hydra-boost-img">
+          <img src="{{ root }}/assets/img/rituals_files/hb1.jpeg" alt="Hydra Boost">
+        </columns>
+        <columns class="hydra-boost-img">
+          <img src="{{ root }}/assets/img/rituals_files/hb2.jpeg" alt="Hydra Boost">
+        </columns>
+      </row>
     </columns>
   </row>
   <row class="collapse hb-info">
@@ -55,18 +57,128 @@ subject: My Email Templates
       <img src="https://image.c.rituals.com/lib/fe2e11717564047a731278/m/2/3e11c7a4-e945-4b40-8c5c-f3160c17375a.jpg" alt="New Arrivals">
     </columns>
     <columns class="new-arrivals-info">
+          <a href="#" class="new-arrivals-link">
+            <h3>powerfully hydrating</h3>
+          </a>
+          <a href="#" class="new-arrivals-link">
+            <h2>The New Arrivals</h2>
+          </a>
+          <p class="info">From after-sun serum to an overnight body mask – our new arrivals are here to soothe even the driest of skin.</p>
+          <a href="#" class="whats-new-btn">
+            <p>See What's New</p>
+          </a>
+    </columns>
+  </row>
 
-        <a href="#" class="new-arrivals-link">
-          <h3>powerfully hydrating</h3>
-        </a>
-        <a href="#" class="new-arrivals-link">
-          <h2>The New Arrivals</h2>
-        </a>
-        <p class="info">From after-sun serum to an overnight body mask – our new arrivals are here to soothe even the driest of skin.</p>
-        <a href="#" class="whats-new-btn">
-          <p>See What's New</p>
-        </a>
-
+<!-- Positivity section -->
+  <row class="collapse positivity">
+    <columns class="positivity-inner">
+      <center>
+        <img src="{{ root }}/assets/img/rituals_files/positivity-logo.png" alt="" class="positivity-logo">
+      </center>
+      <a href="#" class="positivity-link">
+        <h2>The power of positivity</h2>
+      </a>
+      <a href="#" class="optimist-link">
+        <h3>HOW TO BECOME AN OPTIMIST</h3>
+      </a>
+    </columns>
+  </row>
+  <row class="collapse positivity-img">
+    <columns class="positivity-img-inner">
+      <center>
+        <img src="{{ root }}/assets/img/rituals_files/positivity-img.jpeg" alt="Become an optimist">
+      </center>
+      <p class="positivity-info">We are spotlighting a new theme from The Art of Soulful Living compass, and this summer, we want to help you discover the benefits of positive thinking.</p>
+      <a href="#" class="teach-btn">
+        <p>Teach me How</p>
+      </a>
+    </columns>
+  </row>
+  <!-- Services -->
+  <row class="collapse service">
+    <columns class="service-inner">
+      <h3>At Your Service</h3>
+      <row class="collapse services-row">
+        <columns class="service-container">
+          <a href="#">
+            <img src="{{ root }}/assets/img/rituals_files/delivery.png" alt="">
+          </a>
+          <p>Free Delivery from £30</p>
+        </columns>
+        <columns class="service-container">
+          <a href="#">
+            <img src="{{ root }}/assets/img/rituals_files/payment.png" alt="">
+          </a>
+          <p>Safe & Secure payment</p>
+        </columns>
+        <columns class="service-container">
+          <a href="#">
+            <img src="{{ root }}/assets/img/rituals_files/advice.png" alt="">
+          </a>
+          <p>Online advice via WhatsApp</p>
+        </columns>
+      </row>
+    </columns>
+  </row>
+  <!-- Nearest store -->
+  <row class="collapse visit">
+    <columns class="visit-inner">
+      <p><img src="{{ root }}/assets/img/rituals_files/marker.png" alt="Nearest store"> Visit your nearest store</p>
+    </columns>
+  </row>
+  <!-- Stay connected -->
+  <row class="collapse connected">
+    <columns class="connected-inner">
+      <p class="connected-header">Stay connected with Rituals</p>
+      <row class="collapse social">
+        <columns></columns>
+        <columns class="social-column">
+          <img src="{{ root }}/assets/img/rituals_files/fb.png" alt="Facebook">
+        </columns>
+        <columns class="social-column">
+          <img src="{{ root }}/assets/img/rituals_files/pinterest.png" alt="Pinterest">
+        </columns>
+        <columns class="social-column">
+          <img src="{{ root }}/assets/img/rituals_files/instagram.png" alt="Instagram">
+        </columns>
+        <columns class="social-column">
+          <img src="{{ root }}/assets/img/rituals_files/tiktok.png" alt="TikTok">
+        </columns>
+        <columns></columns>
+      </row>
+      <row class="collapse app">
+        <columns class="app-column">
+          <img src="{{ root }}/assets/img/rituals_files/app-store.png" alt="App Store" class="app-store">
+        </columns>
+        <columns class="app-column">
+          <img src="{{ root }}/assets/img/rituals_files/google-play.png" alt="Google Play">
+        </columns>
+      </row>
+    </columns>
+  </row>
+  <row class="collapse certified">
+    <columns class="certified-inner">
+      <img src="{{ root }}/assets/img/rituals_files/certified.png" alt="Certified B Coorporation">
+    </columns>
+  </row>
+  <!-- Footer -->
+  <row class="collapse footer">
+    <columns class="footer-inner">
+      <p class="copyright">Copyright Rituals Cosmetics 2023</p>
+      <p class="terms">*Offer is exclusive to My Rituals members. While stocks last. Max. 1 gift per purchase in store (excluding outlets), or online with your purchase of minimum £40. Not valid in combination with other promotions.</p>
+      <p class="contact">This email is sent from an account Rituals uses for sending newsletters only. If you want to contact us, please don't reply to this email—we will not receive your message. We kindly ask you to contact us via this web form if you have any questions.</p>
+      <p>This e-mail has been sent to feast.grant@gmail.com</p>
+      <a href="#" class="questions">
+        <p>Questions or remarks? We're happy to help</p>
+      </a>
+      <p class="footer-links">
+        <a href="#">Unsubscribe</a> |
+        <a href="#">Terms and Conditions</a> |
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Change language</a> |
+        <a href="#">Online version</a>
+      </p>
     </columns>
   </row>
 </container>
